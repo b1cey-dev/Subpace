@@ -181,7 +181,7 @@ function Panel({
   children,
 }: {
   title: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }) {
   return (
     <div className="rounded-lg bg-[#3D2A4F] p-4 shadow">
